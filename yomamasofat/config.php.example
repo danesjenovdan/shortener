@@ -1,0 +1,16 @@
+<?php
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type');
+
+define('MYSQL_HOST', 'localhost');
+define('MYSQL_USER', 'user');
+define('MYSQL_PASSWORD', 'pass');
+define('MYSQL_DATABASE', 'shortner');
+define('TWITTER_USERNAME', '');
+define('GOOGLE_PLUS_ID', '');
+define('SHORT_URL', 'https://short_url.tld/'); // include the trailing slash!
+define('DEFAULT_URL', 'https://long_url.tld'); // omit the trailing slash!
+
+?>
